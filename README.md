@@ -1,8 +1,20 @@
-# Getting Started with Create React App
+# Prime Generator Frontend
+This repository contains the frontend client for the Prime Number Generator application. This React application provides a user interface to input an integer limit (N > 1) and receive a list of all prime numbers up to that limit via an API call to a separate backend service.
+The UI is built using React and styled with react-bootstrap.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Features
+* User Input: A responsive form for entering the upper limit for prime generation.
+* API Integration: Communicates with the backend API at `http://localhost:8080/primes/{num}`.
+* Results Display: Presents the generated prime numbers in a clean, scrollable list.
+* Loading and Error Handling: Provides user feedback during API requests and displays relevant error messages.
+* Styling: Uses react-bootstrap components for a modern, mobile-friendly interface.
 
-## Available Scripts
+## Prerequisites
+To run this application locally, you will need:
+* Node.js and npm installed on your machine.
+* The corresponding [Prime Generator Backend service](https://github.com/nenebeji/prime-generator-backend/tree/main) must be running locally on port 8080.
+
+## Getting Started
 
 In the project directory, you can run:
 
