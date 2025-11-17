@@ -10,19 +10,15 @@ The UI is built using React and styled with react-bootstrap.
 * Styling: Uses react-bootstrap components for a modern, mobile-friendly interface.
 
 ## Screenshots
-* Below is a screenshot of the main home page
-
-  ![Screenshot of the App Dashboard](./images/screenshot-dashboard.png)
-
-
-* If a number below 2 is inserted the error comes up.
-
-  ![Screenshot of the App Dashboard Error](./images/screenshot-error.png)
+> Below is a screenshot of the main home page
+  ![Screenshot of the App Dashboard](/public/images/screenshot-dashboard.png)
 
 
-* Below is a screenshot of the successful generation of the prime numbers.
+> If a number below 2 is inserted the error comes up.
+  ![Screenshot of the App Dashboard Error](/public/images/screenshot-error.png)
 
-  ![Screenshot of the App Dashboard Success](./images/screenshot-numbers.png)
+> Below is a screenshot of the successful generation of the prime numbers.
+  ![Screenshot of the App Dashboard Success](/public/images/screenshot-numbers.png)
 
 
 ## Prerequisites
